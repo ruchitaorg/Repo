@@ -11,7 +11,7 @@ var survey = require('./app/routes/survey.server.routes');
 var surveysession = require('./app/routes/surveysession.server.routes');
 
 var app = expresss()
-app.locals.products=['iphone 7', 'huawei p9', 'Pixel XL', 'Samsung S7']
+app.locals.products=['iphone 7', 'huawei p9', 'Pixel XL', 'Samsung S7','Sony Xperia']
 app.locals.surveyresults = {
 	fp:[0,0,0,0],
 	mp:[0,0,0,0]
