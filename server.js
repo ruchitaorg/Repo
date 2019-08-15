@@ -2,15 +2,15 @@
  * the survey application used in tutorial
  */
 
-var express = require('express')
-var path = require('path')
+var expresss = require('express')
+var paths = require('path')
 var bodyParser = require('body-parser');
 var session = require('express-session');
 
 var survey = require('./app/routes/survey.server.routes');
 var surveysession = require('./app/routes/surveysession.server.routes');
 
-var app = express()
+var app = expresss()
 app.locals.products=['iphone 7', 'huawei p9', 'Pixel XL', 'Samsung S7']
 app.locals.surveyresults = {
 	fp:[0,0,0,0],
